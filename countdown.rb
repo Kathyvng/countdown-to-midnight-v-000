@@ -1,11 +1,11 @@
 number = 10
 
-def countdown
-  while number > 0
+def countdown(countdown_output)
+  loop do
     puts "#{number} SECOND(S)!"
     number -= 1
-    return "HAPPY NEW YEAR!"
   end
+    return "HAPPY NEW YEAR!"
 end
 
-countdown
+countdown(countdown_output)
